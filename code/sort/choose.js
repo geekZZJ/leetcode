@@ -2,7 +2,7 @@
  * @Author: zzj
  * @Date: 2020-11-28 18:13:37
  * @LastEditors: zzj
- * @LastEditTime: 2021-02-21 18:26:44
+ * @LastEditTime: 2021-02-21 18:27:11
  * @Description:选择排序
  */
 export default (arr) => {
@@ -34,7 +34,5 @@ function selectionSort(arr) {
       arr[indexMin] = tmp;
     }
   }
-  console.log(arr);
+  return arr;
 }
-
-selectionSort([5, 4, 3, 2, 1]);
