@@ -2,7 +2,7 @@
  * @Author: zzj
  * @Date: 2020-11-28 17:49:55
  * @LastEditors: zzj
- * @LastEditTime: 2021-02-19 22:21:19
+ * @LastEditTime: 2021-02-21 18:11:08
  * @Description:冒泡排序
  */
 export default (arr) => {
@@ -17,3 +17,17 @@ export default (arr) => {
   }
   return arr;
 };
+
+// 冒泡排序
+function bubbleSort(arr) {
+  for (let i = 0, tmp; i < arr.length - 1; i++) {
+    for (let j = 0; j < arr.length - 1 - i; j++) {
+      if (arr[j] > arr[j + 1]) {
+        tmp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = tmp;
+      }
+    }
+  }
+  return arr;
+}
