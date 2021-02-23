@@ -2,8 +2,8 @@
  * @Author: zzj
  * @Date: 2021-02-22 09:45:33
  * @LastEditors: zzj
- * @LastEditTime: 2021-02-22 10:17:54
- * @Description:
+ * @LastEditTime: 2021-02-23 11:39:17
+ * @Description:插入排序
  */
 function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
