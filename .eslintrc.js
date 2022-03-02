@@ -6,5 +6,5 @@
  * @Description:
  */
 module.exports = {
-  // extends: ["standard", "plugin:jest/recommended"],
+  extends: ["standard", "plugin:jest/recommended"],
 };
